@@ -182,7 +182,7 @@ camera_video.set(4, 960)
 cv2.namedWindow('Selfie-Capturing System', cv2.WINDOW_NORMAL)
 
 # Read the filter image with its blue, green, red, and alpha channel.
-filter_imageBGRA = cv2.imread('media/filter.png', cv2.IMREAD_UNCHANGED)
+filter_imageBGRA = cv2.imread('filter.png', cv2.IMREAD_UNCHANGED)
 
 # Initialize a variable to store the status of the filter (i.e., whether to apply the filter or not).
 filter_on = False
